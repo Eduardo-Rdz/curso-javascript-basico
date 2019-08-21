@@ -1,0 +1,11 @@
+#boton {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  cursor: pointer;
+  user-select: none;
+}
