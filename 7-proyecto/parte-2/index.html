@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <img
+        class="item-cover"
+        src="assets/gato-hot-dog.png"
+        alt="gato-hot-dog"
+      />
+      <h2>gato hot dog</h2>
+      <div class="fila">
+        <span class="subtitulo">precio</span>
+        <span class="precio">$</span>
+        <span class="precio" id="precio1">50</span>
+      </div>
+
+      <div class="fila">
+        <span class="subtitulo">cantidad</span>
+        <div class="contador">
+          <img
+            class="boton-menos"
+            src="assets/menos.svg"
+            alt="menos"
+            id="menos"
+          />
+          <span class="cantidad" id="cantidad">1</span>
+          <img class="boton-mas" src="assets/mas.svg" alt="mas" id="mas" />
+        </div>
+      </div>
+
+      <div class="boton-agregar" id="agregar">Agregar</div>
+    </div>
+
+    <div class="card">
+      <h2>total a pagar</h2>
+
+      <div class="fila">
+        <span class="subtitulo">subtotal</span>
+        <span class="precio">$</span>
+        <span class="precio" id="etiqueta-subtotal">0</span>
+      </div>
+
+      <div class="fila">
+        <span class="subtitulo">envío</span>
+        <span class="precio">$</span>
+        <span class="precio">5</span>
+      </div>
+
+      <div class="fila">
+        <span class="subtitulo">descuento</span>
+        <span class="precio">$</span>
+        <span class="precio">0</span>
+      </div>
+
+      <div class="division"></div>
+
+      <div class="fila-final">
+        <span class="subtitulo">total</span>
+        <span class="precio">$</span>
+        <span class="precio" id="etiqueta-total">0</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
